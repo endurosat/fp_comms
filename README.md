@@ -17,7 +17,8 @@ Download the wheel from the GitHub release and install it:
 pip install fp_comms-<version>+public-py3-none-any.whl
 ```
 
-This also installs python-can from PyPI.
+`<version>` is the release number, e.g. 2.3.0. This also installs
+python-can and pydantic from PyPI.
 
 ### Windows: PEAK PCAN-USB
 
@@ -84,7 +85,7 @@ finally:
 
 ## Examples
 
-The examples archive (`fp_comms-examples-<version>.zip`) holds an FP echo
+The examples archive (`fp_comms-examples-<version>+public.zip`) holds an FP echo
 client and server and a CSP ping, with a README that lists every command
 and its expected output. They run without hardware on python-can's virtual
 bus, on a Linux `vcan` interface, or on a real CAN bus.
