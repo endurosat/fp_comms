@@ -92,4 +92,7 @@ bus, on a Linux `vcan` interface, or on a real CAN bus.
 
 ## License
 
-MIT, see `LICENSE`. python-can is a separate package under the LGPL-3.0.
+The fp_comms wheel and the examples are available under the EnduroSat Software
+License, version 1.0, see `LICENSE`. It allows use, modification and
+distribution, including commercial use, but not publishing a rebranded copy of
+the software. python-can is a separate package under the LGPL-3.0.
